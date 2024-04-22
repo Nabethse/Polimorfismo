@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nabethse.polimorfismo.controllers.OpcionesController">
+   <children>
+      <Label layoutX="175.0" layoutY="37.0" text="Elija la opcion que guste ">
+         <font>
+            <Font name="Yu Gothic UI Semilight" size="30.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="5.0" prefHeight="468.0" prefWidth="630.0">
+         <children>
+            <ImageView fitHeight="151.0" fitWidth="154.0" layoutX="-7.0" layoutY="-6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/pikachu.png" />
+               </image></ImageView>
+            <ImageView fitHeight="112.0" fitWidth="119.0" layoutX="488.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/2.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="agregar" layoutX="69.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#onClickagregar" prefHeight="36.0" prefWidth="142.0" style="-fx-background-color: #a92c71;" text="Agregar Estudiante" textFill="WHITE">
+               <font>
+                  <Font name="Sylfaen" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="editar" layoutX="263.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#onClickeditar" prefHeight="36.0" prefWidth="135.0" style="-fx-background-color: #6c22bd;" text="Editar Informacion" textFill="WHITE">
+               <font>
+                  <Font name="Sylfaen" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="ver" layoutX="453.0" layoutY="198.0" mnemonicParsing="false" onMouseClicked="#onClickver" prefHeight="36.0" prefWidth="135.0" style="-fx-background-color: #51841e;" text="Ver Estudiantes 1" textFill="WHITE">
+               <font>
+                  <Font name="Sylfaen" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="salir" layoutX="521.0" layoutY="419.0" mnemonicParsing="false" onMouseClicked="#onClicksalir" prefHeight="22.0" prefWidth="64.0" style="-fx-background-color: #cf181b;" text="Salir">
+               <font>
+                  <Font name="SimSun" size="13.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="131.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="370.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/4.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="Ver2" layoutX="453.0" layoutY="251.0" mnemonicParsing="false" onMouseClicked="#onclickVer2" prefHeight="36.0" prefWidth="135.0" style="-fx-background-color: #51841e;" text="Ver Estudiante 2" textFill="WHITE">
+               <font>
+                  <Font name="Sylfaen" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="Ver3" layoutX="453.0" layoutY="301.0" mnemonicParsing="false" onMouseClicked="#onClickVer3" prefHeight="36.0" prefWidth="135.0" style="-fx-background-color: #51841e;" text="Ver Estudiante 3" textFill="WHITE">
+               <font>
+                  <Font name="Sylfaen" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

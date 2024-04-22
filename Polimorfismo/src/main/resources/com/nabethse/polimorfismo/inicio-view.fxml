@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" spacing="20.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nabethse.polimorfismo.controllers.InicioController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" />
+   <AnchorPane prefHeight="450.0" prefWidth="725.0" style="-fx-background-color: #0465;">
+      <children>
+         <ImageView fitHeight="177.0" fitWidth="141.0" layoutX="453.0" layoutY="262.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@Imagenes/1.png" />
+            </image>
+         </ImageView>
+         <ImageView fitHeight="177.0" fitWidth="133.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@Imagenes/snorlax.png" />
+            </image>
+         </ImageView>
+         <Label layoutX="29.0" layoutY="14.0" text="Bienvenido a la APP de gestion de alumnos " textFill="#13cc6c">
+            <font>
+               <Font name="Yu Gothic UI Semilight" size="30.0" />
+            </font>
+         </Label>
+         <ImageView fitHeight="160.0" fitWidth="171.0" layoutX="210.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@Imagenes/Raichu.png" />
+            </image>
+         </ImageView>
+         <Button fx:id="ingresar" layoutX="156.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#onClickingresar" prefHeight="36.0" prefWidth="114.0" style="-fx-background-color: #349634;" text="Ingresar" textFill="WHITE">
+            <font>
+               <Font name="Sylfaen" size="14.0" />
+            </font>
+         </Button>
+         <Button fx:id="salir" layoutX="313.0" layoutY="375.0" mnemonicParsing="false" onMouseClicked="#onClicksalir" prefHeight="36.0" prefWidth="114.0" style="-fx-background-color: #cf181b;" text="Salir" textFill="WHITE">
+            <font>
+               <Font name="Sylfaen" size="14.0" />
+            </font>
+         </Button>
+      </children>
+   </AnchorPane>
+</VBox>

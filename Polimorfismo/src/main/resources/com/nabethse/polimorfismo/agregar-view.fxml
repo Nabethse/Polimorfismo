@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.nabethse.polimorfismo.controllers.AgregarController">
+   <children>
+      <AnchorPane layoutY="4.0" prefHeight="472.0" prefWidth="622.0">
+         <children>
+            <Label layoutX="70.0" layoutY="24.0" text="Requisitos para agregar a un estudiante">
+               <font>
+                  <Font name="Yu Gothic UI Semilight" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="98.0" text="Matricula">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="143.0" text="Nombre">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="186.0" text="Edad">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Matricula" layoutX="110.0" layoutY="94.0" prefHeight="26.0" prefWidth="179.0" />
+            <TextField fx:id="Nombre" layoutX="110.0" layoutY="138.0" prefHeight="26.0" prefWidth="179.0" />
+            <TextField fx:id="Edad" layoutX="110.0" layoutY="190.0" prefHeight="26.0" prefWidth="179.0" />
+            <Button fx:id="agregarE" layoutX="110.0" layoutY="400.0" mnemonicParsing="false" onMouseClicked="#onClickagregarE" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: #2295d7;" text="Agregar" textFill="WHITE">
+               <font>
+                  <Font name="Sylfaen" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="salir" layoutX="409.0" layoutY="400.0" mnemonicParsing="false" onMouseClicked="#onClicksalir" prefHeight="28.0" prefWidth="134.0" style="-fx-background-color: #cf181b;" text="Salir" textFill="WHITE">
+               <font>
+                  <Font name="Sylfaen" size="15.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="177.0" fitWidth="200.0" layoutX="396.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/5.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="154.0" fitWidth="134.0" layoutX="15.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Imagenes/6.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
